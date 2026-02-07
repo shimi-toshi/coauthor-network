@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Vite cache
+.vite/
+
+# Test coverage
+coverage/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.claude/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+\#*#
+
+# OS files (macOS)
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# OS files (Windows)
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# data guide (private)
+doc/data-update-guide.md
+
+# Environment variables (個人情報・ローカルパス設定)
+.env
+.env.local
+.env.production
